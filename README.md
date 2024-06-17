@@ -3,11 +3,14 @@
 
 DomainBaseEntity was designed to be used as a extension library when generating Database models using Entity Framework Core. It provides a base class that can be used to add common properties to all entities in a database model.
 
+## External Links
+- [NuGet Package](https://www.nuget.org/packages/MatinDeWet.DomainBaseEntity/)
+
+## Class examples
+
 There are two main classes that can be used to extend your entities:
 - BaseEntity
 - BaseEnumerabeEntity
-
-## Class examples
 
 ### BaseEntity
 ```C#
