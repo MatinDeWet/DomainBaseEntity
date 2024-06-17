@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<PackageId>MatinDeWet.DomainBaseEntity</PackageId>
-	<Version>1.0.0</Version>
+	<Version>1.0.1</Version>
 	<Authors>MatinDeWet</Authors>
 	<Product>DomainBaseEntity</Product>
 	<Description>DomainBaseEntity for .NET was designed to be used as a extension library when generating Database models using Entity Framework Core. It provides a base class that can be used to add common properties to all entities in a database model.</Description>
