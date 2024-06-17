@@ -1,4 +1,4 @@
-# DomainBaseEntity [![CodeFactor](https://www.codefactor.io/repository/github/matindewet/domainbaseentity/badge)](https://www.codefactor.io/repository/github/matindewet/domainbaseentity)
+# DomainBaseEntity [![CodeFactor](https://www.codefactor.io/repository/github/matindewet/domainbaseentity/badge)](https://www.codefactor.io/repository/github/matindewet/domainbaseentity) ![NuGet Version](https://img.shields.io/nuget/v/MatinDeWet.DomainBaseEntity)
 
 DomainBaseEntity was designed to be used as a extension library when generating Database models using Entity Framework Core. It provides a base class that can be used to add common properties to all entities in a database model.
 
