@@ -14,9 +14,9 @@ There are two main classes that can be used to extend your entities:
 
 ### BaseEntity
 ```C#
-    public abstract class BaseEntity
+    public abstract class BaseEntity<TKey> where TKey : struct, IEquatable<TKey>
     {
-        public int Id { get; set; }
+        public TKey Id { get; set; }
 
         public bool IsActive { get; set; } = true;
 
@@ -98,7 +98,7 @@ extend your entity with.
 
 ### BaseEntity
 ```C#
-	public class User : BaseEntity
+	public class User : BaseEntity<int>
 	{
 		public string Name { get; set; }
 	}
